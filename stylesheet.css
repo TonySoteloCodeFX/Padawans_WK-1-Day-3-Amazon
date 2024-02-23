@@ -1,0 +1,127 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid;
+    height: 80px;
+    width: 80px;
+}
+
+.card_container {
+    width: 325px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px 0px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.password_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.forgot_password {
+    font-size: 13px;
+}
+
+.password, .email_input, .sign_in_button, 
+.catchem_all_button, .sign_in_container, 
+.catchem_all_container {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.txt {
+    font-size: 13px;
+    line-height: 20px;
+    position: relative;
+    bottom: 15px;
+}
+
+h1 {
+    position: relative;
+    right: 115px;
+    bottom: 10px;
+    font-weight: 400;
+}
+
+.password_label, .email_label {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.email_label {
+    position: relative;
+    right: 60px;
+    top: 10px;
+}
+
+.sign_in_button {
+    background: linear-gradient(to top, #f1c963 70%, white);
+}
+
+input, button {
+    border: 1px solid grey;
+}
+
+.catchem_all_button {
+    background-color: #EDEEF1;
+    font-weight: 500;
+    position: relative;
+    bottom: 20px;
+}
+
+.checkbox_input {
+    position: relative;
+    right: 60px;
+    bottom: 25px;
+    font-size: 15px;
+}
+
+.new_to_catchem_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    bottom: 15px;
+}
+
+.horizontal-line {
+    border: none;
+    border-top: 2px solid #EDEEF1; 
+    margin: 0px 0; 
+    width: 20%; 
+  }
+
+  .new_to_catchem_item {
+    padding: 5px 10px;
+    color: grey;
+    font-size: 13px;
+  }
+
+  .main_flex {
+    display: flex;
+    justify-content: center;
+  }
